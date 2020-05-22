@@ -22,3 +22,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.map-container {
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  
+}
+
+.element {
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
