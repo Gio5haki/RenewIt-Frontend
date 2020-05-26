@@ -1,11 +1,9 @@
 import React from "react";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  NavLink,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import NavBar from "./components/Navbar";
 import Home from "./views/Home";
+import AboutUs from "./views/AboutUs";
+import Partners from "./views/Partners";
 
 //import logo from "./logo.svg";
 //import "./App.css";
@@ -13,20 +11,17 @@ import Home from "./views/Home";
 function App() {
   return (
     <div class="App">
-      
       <Router>
-        <div className="navBar">
-          <nav>
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-          </nav>
-        </div>
+        <NavBar></NavBar>
         <Switch>
           <Route exact path="/">
             <Home></Home>
           </Route>
-          <Route exact path="/about">
-            About Section
+          <Route exact path="/aboutUs">
+            <AboutUs></AboutUs>
+          </Route>
+          <Route>
+            <Partners></Partners>
           </Route>
         </Switch>
       </Router>
