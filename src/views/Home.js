@@ -6,12 +6,13 @@ function Home() {
   const [content, setContent] = useState("");
   return (
     <div>
-      <div className="map-container">
+      <div className="mapChart-container">
         <MapChart setTooltipContent={setContent}></MapChart>
         <ReactTooltip place="top" type="dark" effect="float">
           {content}
         </ReactTooltip>
       </div>
+      <div className="element">Brief Description of the Project</div>
     </div>
   );
 }

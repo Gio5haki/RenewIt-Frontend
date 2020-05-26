@@ -26,7 +26,6 @@ function App() {
         </Switch>
       </Router>
 
-      <div className="element">Brief Description of the Project</div>
       <div className="element">Social Media</div>
     </div>
   );
