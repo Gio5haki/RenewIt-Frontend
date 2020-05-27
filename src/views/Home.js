@@ -12,7 +12,6 @@ function Home() {
           {content}
         </ReactTooltip>
       </div>
-      <div className="element">Brief Description of the Project</div>
     </div>
   );
 }

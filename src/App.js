@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import NavBar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./views/Home";
 import AboutUs from "./views/AboutUs";
 import Partners from "./views/Partners";
@@ -13,24 +14,29 @@ function App() {
   return (
     <div class="App">
       <Router>
-        <NavBar></NavBar>
-        <Switch>
-          <Route exact path="/">
-            <Home></Home>
-          </Route>
-          <Route exact path="/aboutUs">
-            <AboutUs></AboutUs>
-          </Route>
-          <Route exact path="/partners">
-            <Partners></Partners>
-          </Route>
-          <Route exact path="/contact">
-            <Contact></Contact>
-          </Route>
-        </Switch>
+        <header>
+          <NavBar></NavBar>
+        </header>
+        <body>
+          <Switch>
+            <Route exact path="/">
+              <Home></Home>
+            </Route>
+            <Route exact path="/aboutUs">
+              <AboutUs></AboutUs>
+            </Route>
+            <Route exact path="/partners">
+              <Partners></Partners>
+            </Route>
+            <Route exact path="/contact">
+              <Contact></Contact>
+            </Route>
+          </Switch>
+        </body>
       </Router>
-
-      <div className="element">Social Media</div>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }
