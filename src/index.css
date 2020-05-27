@@ -1,3 +1,4 @@
+/*
 html {
   font-family: sans-serif;
   font-size: 1.25rem;
@@ -22,6 +23,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+*/
 
 .mapChart-container {
   border: 1px solid black;
@@ -42,4 +44,29 @@ code {
   width: 100%;
   height: auto;
   margin-top: 6%;
+}
+
+.contact-container {
+  border: 1px solid black;
+  width: 100%;
+  height: auto;
+  margin-top: 6%;
+}
+
+.navBar {
+  width: 100%;
+  overflow: auto;
+}
+
+.navBar a {
+  width: 20%;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.3s ease;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.navBar a:hover {
+  background-color: #000;
 }

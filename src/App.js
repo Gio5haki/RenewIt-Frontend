@@ -4,6 +4,7 @@ import NavBar from "./components/Navbar";
 import Home from "./views/Home";
 import AboutUs from "./views/AboutUs";
 import Partners from "./views/Partners";
+import Contact from "./views/Contact";
 
 //import logo from "./logo.svg";
 //import "./App.css";
@@ -20,8 +21,11 @@ function App() {
           <Route exact path="/aboutUs">
             <AboutUs></AboutUs>
           </Route>
-          <Route>
+          <Route exact path="/partners">
             <Partners></Partners>
+          </Route>
+          <Route exact path="/contact">
+            <Contact></Contact>
           </Route>
         </Switch>
       </Router>
