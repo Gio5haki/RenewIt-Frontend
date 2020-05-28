@@ -14,7 +14,7 @@ const rounded = (num) => {
   }
 };
 
-const MapChart = ({ setTooltipContent }) => {
+const MapChart = ({ setTooltipContent, handleClick }) => {
   return (
     <>
       <ComposableMap
@@ -37,6 +37,7 @@ const MapChart = ({ setTooltipContent }) => {
                 onMouseLeave={() => {
                   setTooltipContent("");
                 }}
+                onMouseDown={handleClick}
                 style={{
                   default: {
                     fill: "#D6D6DA",

@@ -1,0 +1,13 @@
+.customMapContainer {
+  position: relative;
+}
+
+#dashboard {
+  width: 80%;
+  height: 100%;
+  background: grey;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: -3%;
+}
