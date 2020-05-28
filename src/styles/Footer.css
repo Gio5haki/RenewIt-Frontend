@@ -1,0 +1,15 @@
+.customFooter {
+  background-color: #45526e !important;
+  color: white;
+}
+
+.customFooter a {
+  color: white;
+}
+
+.customIcon a {
+  width: 25px;
+  height: 25px;
+  border: 1px solid white;
+  border-radius: 25px;
+}
