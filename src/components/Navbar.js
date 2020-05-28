@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import "../styleSheets/Navbar.css";
 
 function NavBar() {
   return (
     <div className="navBar">
-      <nav className="navbar navbar-expand-sm navbar-right bg-dark navbar-dark fixed-top">
+      <nav className="navbar navbar-expand-sm navbar-right navbar-dark bg-dark fixed-top">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item" title="Home">
             <NavLink to="/">

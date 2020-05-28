@@ -1,5 +1,6 @@
 import React, { memo } from "react";
 import { ComposableMap, Geographies, Geography } from "react-simple-maps";
+import "../styleSheets/MapChart.css";
 
 const geoUrl =
   "https://raw.githubusercontent.com/zcreativelabs/react-simple-maps/master/topojson-maps/world-110m.json";

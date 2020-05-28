@@ -3,8 +3,6 @@ import ReactTooltip from "react-tooltip";
 import MapChart from "../components/MapChart";
 import Dashboard from "../components/Dashboard";
 
-import "../styles/Dashboard.css";
-
 function Home() {
   const [content, setContent] = useState("");
   const [dashboardDisplayed, setDashboardDisplayed] = useState(false);

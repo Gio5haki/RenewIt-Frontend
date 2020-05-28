@@ -1,0 +1,18 @@
+.navBar {
+    width: 100%;
+    overflow: auto;
+    background-color: #45526e;
+  }
+  
+  .navBar a {
+    text-align: center;
+    margin-left: 5rem;
+    padding: 10px;
+    transition: all 0.3s ease;
+    color: #ffffff;
+    font-size: 30px;
+  }
+  
+  .navBar a:hover {
+    background-color: #000;
+  }

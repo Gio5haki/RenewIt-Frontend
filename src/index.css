@@ -25,48 +25,6 @@ code {
 }
 */
 
-.mapChart-container {
-  border: 1px hidden black;
-  width: 100%;
-  height: auto;
-  margin-top: 6%;
-}
 
-.aboutUs-container {
-  border: 1px solid black;
-  width: 100%;
-  height: auto;
-  margin-top: 6%;
-}
 
-.partners-container {
-  border: 1px solid black;
-  width: 100%;
-  height: auto;
-  margin-top: 6%;
-}
 
-.contact-container {
-  border: 1px solid black;
-  width: 100%;
-  height: auto;
-  margin-top: 6%;
-}
-
-.navBar {
-  width: 100%;
-  overflow: auto;
-}
-
-.navBar a {
-  width: 20%;
-  text-align: center;
-  padding: 15px;
-  transition: all 0.3s ease;
-  color: #ffffff;
-  font-size: 25px;
-}
-
-.navBar a:hover {
-  background-color: #000;
-}

@@ -1,8 +1,8 @@
 import React from "react";
-import "../styles/Dashboard.css";
+import "../styleSheets/Dashboard.css"
 
 export default () => (
-  <div id="dashboard">
+  <div className="dashboard">
     <h1>Dashboard</h1>
   </div>
 );
