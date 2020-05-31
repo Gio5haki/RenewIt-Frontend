@@ -12,6 +12,7 @@
     "react-scripts": "3.4.1",
     "react-simple-maps": "^2.0.0",
     "react-tooltip": "^4.2.6",
+    "react-transition-group": "^4.4.1",
     "svgmap": "^1.5.0"
   },
   "scripts": {

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ReactTooltip from "react-tooltip";
+
 import MapChart from "../components/MapChart";
 import Dashboard from "../components/Dashboard";
 
