@@ -3,6 +3,7 @@ import ReactTooltip from "react-tooltip";
 
 import MapChart from "../components/MapChart";
 import Dashboard from "../components/Dashboard";
+import Footer from "../components/Footer";
 
 function Home() {
   const [content, setContent] = useState("");
@@ -19,6 +20,7 @@ function Home() {
         </ReactTooltip>
         {dashboardDisplayed ? <Dashboard /> : null}
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -19,9 +19,6 @@ function App() {
           <Container></Container>
         </body>
       </Router>
-      <footer>
-        <Footer></Footer>
-      </footer>
     </div>
   );
 }
