@@ -2,8 +2,8 @@
   border: 1px dotted black;
   background-size: cover;
   background-color: #797b7d;
-  padding-left: 130px;
-  padding-right: 130px;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .contact-form {
@@ -11,13 +11,14 @@
   background-color: #ffffff;
   font-family: "Courier New", Courier, monospace;
   padding-top: 100px;
-  padding-left: 120px;
+  padding-left: 140px;
   padding-right: 0px;
   padding-right: 0px;
   padding-bottom: 20px;
+  margin-bottom: 5px;
 }
 
-.contact-formr h3 {
+.contact-form h3 {
   color: #000;
   font-weight: bold;
 }
@@ -34,7 +35,7 @@
 }
 
 .contact-form label {
-  font-size: medium;
+  font-size: 15px;
   color: #032a52;
 }
 
@@ -45,8 +46,13 @@
 .custom-input-message {
   background-color: #f2f2f2;
   width: 100%;
-  height: 150px;
-  text-align: inherit;
+  
+  
+}
+.custom-input textarea {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 200;
 }
 
 .submit-button {

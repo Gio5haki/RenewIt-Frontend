@@ -19,14 +19,17 @@ function ContactForm() {
               Message:
             </label>
             <div className="col-sm-10">
-              <input
+
+              {/*<input
                 type="text"
                 className="form-control custom-input-message"
                 placeholder="Your message.."
                 name="message"
                 size="10000"
                 maxLength="1000"
-              ></input>
+              ></input>*/}
+
+              <textarea className="form-control custom-input" name="message" rows="5" placeholder="Your message.." form="form-horizontal"></textarea>
             </div>
           </div>
 
@@ -44,6 +47,8 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="Your marital status.."
+                name="salutation"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -57,6 +62,8 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="Your name.."
+                name="name"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -70,6 +77,8 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="Your workplace.."
+                name="organisation"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -83,6 +92,8 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="Your position.."
+                name="position"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -96,6 +107,8 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="Street name, number.."
+                name="address-1"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -109,12 +122,14 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="ZIP number, City.."
+                name="address-2"
+                maxLength="50"
               ></input>
             </div>
           </div>
 
           <div className="form-group">
-            <label className="control-label col-sm-2" for="country-2">
+            <label className="control-label col-sm-2" for="country">
               Country:
             </label>
             <div className="col-sm-10">
@@ -122,6 +137,8 @@ function ContactForm() {
                 type="text"
                 className="form-control custom-input"
                 placeholder="Country.."
+                name="country"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -135,6 +152,8 @@ function ContactForm() {
                 type="email"
                 className="form-control custom-input"
                 placeholder="Your email address.."
+                name="email"
+                maxLength="50"
               ></input>
             </div>
           </div>
@@ -148,6 +167,8 @@ function ContactForm() {
                 type="tel"
                 className="form-control custom-input"
                 placeholder="Your phone number.."
+                name="phone"
+                maxLength="50"
               ></input>
             </div>
           </div>
