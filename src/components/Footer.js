@@ -1,5 +1,5 @@
 import React from "react";
-import "../styleSheets/Footer.css"
+import "../styleSheets/Footer.css";
 
 function Footer() {
   return (
@@ -8,13 +8,11 @@ function Footer() {
         <div className="container text-center text-md-left">
           <div className="row text-center text-md-left mt-3 pb-3">
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">
-                Company name
-              </h6>
+              <h6 className="text-uppercase mb-4 font-weight-bold">About Us</h6>
               <p>
-                Here you can use rows and columns to organize your footer
-                content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                elit.
+                RenewIt is a global non-profit Initiative. Here you can use rows
+                and columns to organize your footer content. Lorem ipsum dolor
+                sit amet, consectetur adipisicing elit.
               </p>
             </div>
 

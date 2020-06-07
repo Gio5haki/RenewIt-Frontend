@@ -1,6 +1,44 @@
 .aboutUs-container {
-  border: 1px solid black;
+  border: 1px hidden #000000;
+  background-color: #e3dede;
+  background-size: cover;
+
   width: 100%;
   height: auto;
   margin-top: 4%;
+}
+
+.aboutUs-header {
+  position: relative;
+  border: 1px hidden #000000;
+}
+
+.aboutUs-header-image img {
+  width: 100%;
+  height: 550px;
+}
+
+.aboutUs-body-title span {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.aboutUs-body-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: justify;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.aboutUs-body-paragraph {
+  border: 1px hidden black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
 }
