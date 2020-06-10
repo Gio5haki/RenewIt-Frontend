@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/renewit-frontend/static/css/main.6709112b.chunk.css",
+    "main.js": "/renewit-frontend/static/js/main.2907e0d6.chunk.js",
+    "main.js.map": "/renewit-frontend/static/js/main.2907e0d6.chunk.js.map",
+    "runtime-main.js": "/renewit-frontend/static/js/runtime-main.643bd8c9.js",
+    "runtime-main.js.map": "/renewit-frontend/static/js/runtime-main.643bd8c9.js.map",
+    "static/js/2.4d3f9c4f.chunk.js": "/renewit-frontend/static/js/2.4d3f9c4f.chunk.js",
+    "static/js/2.4d3f9c4f.chunk.js.map": "/renewit-frontend/static/js/2.4d3f9c4f.chunk.js.map",
+    "index.html": "/renewit-frontend/index.html",
+    "precache-manifest.9b56e250d5d13987922bc1e8fc22486f.js": "/renewit-frontend/precache-manifest.9b56e250d5d13987922bc1e8fc22486f.js",
+    "service-worker.js": "/renewit-frontend/service-worker.js",
+    "static/css/main.6709112b.chunk.css.map": "/renewit-frontend/static/css/main.6709112b.chunk.css.map",
+    "static/js/2.4d3f9c4f.chunk.js.LICENSE.txt": "/renewit-frontend/static/js/2.4d3f9c4f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.643bd8c9.js",
+    "static/js/2.4d3f9c4f.chunk.js",
+    "static/css/main.6709112b.chunk.css",
+    "static/js/main.2907e0d6.chunk.js"
+  ]
+}
