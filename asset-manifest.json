@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/renewit-frontend/static/css/main.6709112b.chunk.css",
-    "main.js": "/renewit-frontend/static/js/main.2907e0d6.chunk.js",
-    "main.js.map": "/renewit-frontend/static/js/main.2907e0d6.chunk.js.map",
+    "main.css": "/renewit-frontend/static/css/main.d82038a5.chunk.css",
+    "main.js": "/renewit-frontend/static/js/main.1e1f3939.chunk.js",
+    "main.js.map": "/renewit-frontend/static/js/main.1e1f3939.chunk.js.map",
     "runtime-main.js": "/renewit-frontend/static/js/runtime-main.643bd8c9.js",
     "runtime-main.js.map": "/renewit-frontend/static/js/runtime-main.643bd8c9.js.map",
-    "static/js/2.4d3f9c4f.chunk.js": "/renewit-frontend/static/js/2.4d3f9c4f.chunk.js",
-    "static/js/2.4d3f9c4f.chunk.js.map": "/renewit-frontend/static/js/2.4d3f9c4f.chunk.js.map",
+    "static/js/2.cc80f141.chunk.js": "/renewit-frontend/static/js/2.cc80f141.chunk.js",
+    "static/js/2.cc80f141.chunk.js.map": "/renewit-frontend/static/js/2.cc80f141.chunk.js.map",
     "index.html": "/renewit-frontend/index.html",
-    "precache-manifest.9b56e250d5d13987922bc1e8fc22486f.js": "/renewit-frontend/precache-manifest.9b56e250d5d13987922bc1e8fc22486f.js",
+    "precache-manifest.a54c42f727b7ff9f2f86e9bc231e27af.js": "/renewit-frontend/precache-manifest.a54c42f727b7ff9f2f86e9bc231e27af.js",
     "service-worker.js": "/renewit-frontend/service-worker.js",
-    "static/css/main.6709112b.chunk.css.map": "/renewit-frontend/static/css/main.6709112b.chunk.css.map",
-    "static/js/2.4d3f9c4f.chunk.js.LICENSE.txt": "/renewit-frontend/static/js/2.4d3f9c4f.chunk.js.LICENSE.txt"
+    "static/css/main.d82038a5.chunk.css.map": "/renewit-frontend/static/css/main.d82038a5.chunk.css.map",
+    "static/js/2.cc80f141.chunk.js.LICENSE.txt": "/renewit-frontend/static/js/2.cc80f141.chunk.js.LICENSE.txt",
+    "static/media/renewable_energy_cover.png": "/renewit-frontend/static/media/renewable_energy_cover.0a2282d9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.643bd8c9.js",
-    "static/js/2.4d3f9c4f.chunk.js",
-    "static/css/main.6709112b.chunk.css",
-    "static/js/main.2907e0d6.chunk.js"
+    "static/js/2.cc80f141.chunk.js",
+    "static/css/main.d82038a5.chunk.css",
+    "static/js/main.1e1f3939.chunk.js"
   ]
 }

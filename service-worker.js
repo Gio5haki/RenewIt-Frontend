@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/renewit-frontend/precache-manifest.9b56e250d5d13987922bc1e8fc22486f.js"
+  "/renewit-frontend/precache-manifest.a54c42f727b7ff9f2f86e9bc231e27af.js"
 );
 
 self.addEventListener('message', (event) => {
