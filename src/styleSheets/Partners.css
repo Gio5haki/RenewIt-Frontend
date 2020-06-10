@@ -4,3 +4,12 @@
   height: auto;
   margin-top: 4%;
 }
+
+.partners-container body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 1;
+}

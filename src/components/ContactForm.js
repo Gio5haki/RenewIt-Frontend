@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 
 import "../styleSheets/ContactForm.css";
+
+
 function ContactForm() {
   const [message, setMessage] = useState("");
   const [salutation, setSalutation] = useState("");
