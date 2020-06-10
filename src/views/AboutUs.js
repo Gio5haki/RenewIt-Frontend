@@ -1,7 +1,6 @@
 import React from "react";
-
 import Footer from "../components/Footer";
-
+import Cover from "../media_asset/renewable_energy_cover.png"
 import "../styleSheets/AboutUs.css";
 
 function AboutUs() {
@@ -9,7 +8,7 @@ function AboutUs() {
     <div className="aboutUs-container">
       <div className="aboutUs-header">
         <div className="aboutUs-header-image">
-          <img src="/renewable_energy_cover.png" alt="image"></img>
+          <img src={Cover} alt="image"></img>
         </div>
       </div>
       <div className="aboutUs-body">
